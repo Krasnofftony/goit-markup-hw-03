@@ -51,6 +51,11 @@ body {
   align-items: center;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* header */
 
 .header {
@@ -160,17 +165,6 @@ body {
 
 /*section 1 */
 
-.services {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-/*.advantage-position {
-  margin-top: 90px;
-  margin-bottom: 90px;
-}
-*/
-
 .advantage-title {
   margin-bottom: 10px;
 
@@ -213,9 +207,6 @@ body {
 }
 
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
   background: var(--section-extra);
 }
 
@@ -289,10 +280,6 @@ body {
 }
 
 /*portfolio page*/
-.section-padding {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .hidden {
   position: absolute;
@@ -349,9 +336,6 @@ body {
   width: 370px;
   margin-right: 30px;
   margin-top: 30px;
-
-  background: var(--elements-white);
-  border: #eeeeee 1px solid;
 }
 
 .project-card:nth-child(3n + 0) {
@@ -366,6 +350,9 @@ body {
 
 .project-text {
   padding: 20px 24px;
+
+  background: var(--elements-white);
+  border: #eeeeee 1px solid;
 }
 
 .project-name {
