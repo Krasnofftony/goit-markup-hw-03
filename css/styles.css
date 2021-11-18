@@ -81,7 +81,7 @@ body {
   color: var(--brand-color);
 }
 
-.logo-header {
+.logo-studio {
   color: var(--brand-header);
 }
 
@@ -184,6 +184,10 @@ body {
 
 /*sections services & team */
 
+.section-services {
+  padding-bottom: 94px;
+}
+
 .section-title {
   margin-bottom: 50px;
 
@@ -197,7 +201,6 @@ body {
 
 .services-list {
   margin-right: 30px;
-  padding-bottom: 94px;
 }
 
 .services-list:last-child {
@@ -252,15 +255,24 @@ body {
 }
 
 .logo-footer {
+  margin-bottom: 20px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+
+  margin-bottom: 20px;
+}
+
+.studio-footer {
   color: var(--elements-white);
 }
 
 .footer-list {
   margin-top: 9px;
-}
-
-.footer-list:first-child {
-  margin-top: 20px;
 }
 
 .address-street {
