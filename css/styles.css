@@ -275,6 +275,10 @@ body {
   margin-top: 9px;
 }
 
+.footer-list:first-child{
+  margin-top: 0;
+}
+
 .address-street {
   color: var(--elements-white);
   line-height: 1.71;
